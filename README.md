@@ -26,7 +26,3 @@ If you haven't already, [contact us](https://toast-team.gitbook.io/toast/support
 6. Finalize configuration.
 7. Use Toast!
 
-
-
-
-

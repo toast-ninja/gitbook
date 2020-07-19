@@ -4,7 +4,8 @@
 
 ## Enterprise Setup <a id="enterprise"></a>
 
-* [Getting Started](enterprise/getting-started.md)
+* [Create a GitHub App](enterprise/create-a-github-app.md)
+* [Run ToastE instance](enterprise/getting-started.md)
 
 ---
 

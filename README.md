@@ -21,8 +21,8 @@ If you haven't already, [contact us](https://toast-team.gitbook.io/toast/support
 1. [Request](https://forms.gle/YmAxTfwEARBSis2F8) and obtain ToastE Docker image and Docker compose file.
 2. Create GitHub app.
 3. Deploy containerized ToastE infrastructure.
-4. Expose ToastE API \(with public IP\) to be accessible by Slack.
-5. Create Slack app.
+4. Create Slack app.
+5. Expose ToastE API \(with public IP\) to be accessible by Slack.
 6. Finalize configuration.
 7. Use Toast!
 

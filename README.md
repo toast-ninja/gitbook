@@ -4,7 +4,7 @@ description: >-
   keep your team efficient, healthy, and happy.
 ---
 
-# Welcome
+# Toast for Enterprise \(ToastE\)
 
 {% hint style="info" %}
 Looking for non-enterprise Toast? Visit [toast.chat](https://toast.chat) 🍞

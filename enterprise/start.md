@@ -4,7 +4,7 @@
 **Prerequisites**
 
 * Host for running Docker images
-* Docker compose file which contains the following images - ToastE application backend - RabbitMQ - Postgres 
+* Docker compose file which contains the following images - ToastE application backend - RabbitMQ - Postgres  - Redis
 * Docker ToastE image
 {% endhint %}
 

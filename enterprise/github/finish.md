@@ -15,7 +15,5 @@ We've supplied this PNG.
 Just download and set as the logo for your new Toast app.
 {% endhint %}
 
-![](../../.gitbook/assets/toast-logo-padded-512x%20%281%29.png)
-
 {% file src="../../.gitbook/assets/toast-logo-padded-512x.png" caption="Download Toast Logo" %}
 

@@ -7,6 +7,7 @@
 * [Getting Started](enterprise/start.md)
 * [Setup GitHub App](enterprise/github/README.md)
   * [Set Required Fields](enterprise/github/config.md)
+  * [Set Permissions](enterprise/github/set-permissions.md)
 
 ---
 

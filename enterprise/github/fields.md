@@ -7,7 +7,7 @@ Use the variable obtained from previous step for all copy-pasted snippets below.
 
 ## Basic information
 
-**GitHub App name: `Toast`**
+**GitHub App name: `Toast App`**
 
 **Homepage URL: `https://toast.ninja`**
 

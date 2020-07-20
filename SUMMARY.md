@@ -6,8 +6,11 @@
 
 * [Getting Started](enterprise/start.md)
 * [Setup GitHub App](enterprise/github/README.md)
-  * [Set Required Fields](enterprise/github/config.md)
-  * [Set Permissions](enterprise/github/set-permissions.md)
+  * [Set Required Fields](enterprise/github/fields.md)
+  * [Set Permissions](enterprise/github/permissions.md)
+  * [Set Event Subscription](enterprise/github/events.md)
+  * [Set Installation Scope](enterprise/github/set-installation-scope.md)
+  * [Finish](enterprise/github/finish.md)
 
 ---
 

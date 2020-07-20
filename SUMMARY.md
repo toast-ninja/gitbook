@@ -6,7 +6,7 @@
 
 * [Getting Started](enterprise/start.md)
 * [Setup GitHub App](enterprise/github/README.md)
-  * [Configuration](enterprise/github/github-config.md)
+  * [Set Required Fields](enterprise/github/config.md)
 
 ---
 

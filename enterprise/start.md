@@ -18,6 +18,11 @@ Docker Compose file is provided for the convenience of running everything on one
 ToastE needs to run within the same  
 ToastE needs to be accessible to Slack API via public IP.
 
+{% hint style="success" %}
+This is your private network address for your ToastE API \(a.k.a **TOASTE\_API\_URL**\).  
+You will need it for setting up your GitHub App.
+{% endhint %}
+
 Registry URL to come soon.
 
 {% hint style="info" %}

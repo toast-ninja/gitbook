@@ -1,14 +1,10 @@
-# Configuration
+# Set Required Fields
 
-{% hint style="info" %}
+{% hint style="warning" %}
 **Prerequisites:** Private network address for your ToastE API \(a.k.a **TOASTE\_API\_URL**\).  
-You will be using this variable for all copy-pasted snippets below.
+Use the variable obtained from previous step for all copy-pasted snippets below.
 {% endhint %}
 
-### Set your app configuration as follows
-
-{% tabs %}
-{% tab title="Fields" %}
 #### **GitHub App name: `Toast`**
 
 **Homepage URL: `https://toast.ninja`**
@@ -25,25 +21,14 @@ You will be using this variable for all copy-pasted snippets below.
 {TOASTE_API_URL}/github/app-install-redirect
 ```
 
-* [x] **Redirect on update**
-
-\*\*\*\*
-{% endtab %}
-
-{% tab title="Second Tab" %}
-
-{% endtab %}
-{% endtabs %}
-
-
-
-**active**
+* [x] **Redirect on update** 
+* [x] **Active**
 
 **Webhook URL**
 
-\*\*\*\*
-
-\*\*\*\*
+```text
+{TOASTE_API_URL}/webhooks/github/catch
+```
 
 
 

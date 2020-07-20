@@ -1,5 +1,7 @@
 # Finish
 
+// TODO Anton to write instructions for obtaining something
+
 ## Finishing Touch
 
 ![](../../.gitbook/assets/image.png)

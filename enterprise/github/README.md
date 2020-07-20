@@ -1,4 +1,8 @@
-# Setup GitHub App
+---
+description: Instructions for setting up a new Toast GitHub app
+---
+
+# GitHub App
 
 #### GitHub Enterprise Settings  &gt;  Developer Settings  &gt;  GitHub Apps  &gt;  New GitHub App
 

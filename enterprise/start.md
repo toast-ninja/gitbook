@@ -1,10 +1,12 @@
 # Getting Started
 
-## Prerequisites
+{% hint style="warning" %}
+**Prerequisites**
 
 * [ ] Host for running Docker images
 * [ ] Docker compose file which contains the following images - ToastE application backend - RabbitMQ - Postgres 
 * [ ] Docker ToastE image
+{% endhint %}
 
 Docker Compose file is provided for the convenience of running everything on one VM. It is possible to run services separately if you choose.
 

@@ -5,9 +5,13 @@
 Use the variable obtained from previous step for all copy-pasted snippets below.
 {% endhint %}
 
-#### **GitHub App name: `Toast`**
+## Basic information
+
+**GitHub App name: `Toast`**
 
 **Homepage URL: `https://toast.ninja`**
+
+## Identifying and authorizing users
 
 **User authorization callback URL**
 
@@ -15,13 +19,18 @@ Use the variable obtained from previous step for all copy-pasted snippets below.
 {TOASTE_API_URL}/github/oauth-redirect?callback=1
 ```
 
+## **Post installation**
+
 **Setup URL \(NOT optional\)**
 
 ```text
 {TOASTE_API_URL}/github/app-install-redirect
 ```
 
-* [x] **Redirect on update** 
+* [x] **Redirect on update**
+
+## Webhook
+
 * [x] **Active**
 
 **Webhook URL**
@@ -29,8 +38,6 @@ Use the variable obtained from previous step for all copy-pasted snippets below.
 ```text
 {TOASTE_API_URL}/webhooks/github/catch
 ```
-
-
 
 \*\*\*\*
 

@@ -4,5 +4,5 @@
 This is critical for other users in your organization to use Toast.
 {% endhint %}
 
-![](../../.gitbook/assets/image.png)
+![](../../.gitbook/assets/image%20%281%29.png)
 

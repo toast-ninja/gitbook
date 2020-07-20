@@ -4,8 +4,8 @@
 
 ## Enterprise Setup <a id="enterprise"></a>
 
-* [Getting Started](enterprise/create-a-github-app.md)
-* [Setup GitHub App](enterprise/getting-started.md)
+* [Getting Started](enterprise/start.md)
+* [Setup GitHub App](enterprise/github-app.md)
 
 ---
 

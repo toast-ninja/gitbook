@@ -4,7 +4,7 @@
 Leave all permissions not listed below as default \(no access\).
 {% endhint %}
 
-## Repository permissions
+### Repository permissions
 
 |  |  |
 | :--- | :--- |
@@ -16,13 +16,13 @@ Leave all permissions not listed below as default \(no access\).
 | Webhooks | Read & write |
 | Commit statuses | Read - only |
 
-## Organization permissions
+### Organization permissions
 
 |  |  |
 | :--- | :--- |
 | Members | Read - only |
 
-## User permissions
+### User permissions
 
 |  |  |
 | :--- | :--- |

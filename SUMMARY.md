@@ -10,7 +10,7 @@
   * [Set Permissions](enterprise/github/permissions.md)
   * [Set Event Subscription](enterprise/github/events.md)
   * [Set Installation Scope](enterprise/github/installation.md)
-  * [Finish](enterprise/github/finish.md)
+  * [Capture Environment Variables](enterprise/github/finish.md)
 
 ---
 

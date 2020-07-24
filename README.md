@@ -14,17 +14,17 @@ Looking for non-enterprise Toast? Visit [toast.chat](https://toast.chat) 🍞
 
 ## Using Toast with [GitHub Enterprise](https://github.com/enterprise)
 
-If you haven't already, [contact us](https://toast-team.gitbook.io/toast/support) to get your own Toast for Enterprise \(ToastE\) instance. Then you can create your own ToastE GitHub and Slack apps for use on premise, which allows complete ownership over your data. ToastE requires only access to the Slack API.
+If you haven't already, [contact us](https://toast-team.gitbook.io/toast/support) to get your own Toast for Enterprise \(ToastE\) kit. Then you can create your own ToastE GitHub and Slack apps for use on premise, which allows complete ownership over your data. ToastE requires only access to your GitHub Enterprise API and the public Slack API.
 
 #### Setup Overview
 
-1. [Request](https://forms.gle/YmAxTfwEARBSis2F8) and obtain ToastE Docker image and Docker compose file.
+1. [Request](https://forms.gle/YmAxTfwEARBSis2F8) and obtain the ToastE kit.
 2. Create GitHub app.
 3. Create Slack app.
-4. Deploy containerized ToastE infrastructure.
-5. Expose ToastE API \(with public IP\) to be accessible by Slack.
+4. Deploy ToastE.
+5. Expose ToastE API to Slack.
 6. Finalize configuration.
-7. Use Toast!
+7. Use ToastE!
 
 Start your ToastE [free trial](https://forms.gle/YmAxTfwEARBSis2F8).
 

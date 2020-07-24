@@ -11,9 +11,9 @@
 ### 3. Save the variables using this template.
 
 ```text
+GITHUB_APP_ID=
 GITHUB_APP_CLIENT_ID=
 GITHUB_APP_CLIENT_SECRET=
-GITHUB_APP_ID=
 GITHUB_APP_URL=
 ```
 

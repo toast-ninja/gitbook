@@ -11,10 +11,14 @@
   * [Set Event Subscription](enterprise/github/events.md)
   * [Set Installation Scope](enterprise/github/installation.md)
   * [Capture Environment Variables](enterprise/github/finish.md)
+* [Slack App](enterprise/slack-app.md)
+* [Deploy ToastE](enterprise/deploy-toaste.md)
+* [Expose ToastE API](enterprise/expose-toaste-api.md)
+* [Finalize Configuration](enterprise/finalize-configuration.md)
+* [Todos](enterprise/todos.md)
 
 ---
 
-* [Slack App](slack-app.md)
 * [Terms & Conditions](terms-and-conditions.md)
 * [Support](support.md)
 

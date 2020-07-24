@@ -1,8 +1,9 @@
 # Set Required Fields
 
 {% hint style="warning" %}
-**Prerequisites:** Private network address for your ToastE API \(a.k.a **TOASTE\_API\_URL**\).  
-Use the variable obtained from previous step for all copy-pasted snippets below.
+**Prerequisites**   
+Private network address for your ToastE Instance \(obtained previously\)  
+Replace **TOASTE\_API\_URL** with that address in all snippets below.
 {% endhint %}
 
 ## Basic information

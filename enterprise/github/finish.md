@@ -17,7 +17,7 @@ GITHUB_APP_ID=
 GITHUB_APP_URL=
 ```
 
-Save this as plain text in a secure location. You will need this at the 
+Save this as plain text in a secure location. You will need this in the next step.
 
 ![](../../.gitbook/assets/image%20%2812%29.png)
 

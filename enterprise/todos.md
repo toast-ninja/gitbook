@@ -14,6 +14,7 @@
     * Not all customers upgrade to the latest version at the same time, meaning that we are supporting many versions of our software at once, which increases the cost of support
     * All of these factors mean that we actually have much lower margins on ToastE vs Toast if we charged the same amount, even though we're no longer paying for the hardware.
 * Rea: Go back through and change the slugs so they look nice.
+* Remove this page
 
 
 

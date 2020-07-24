@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Toast for Enterprise \(ToastE\)](README.md)
+* [Welcome to ToastE](README.md)
 
 ## Enterprise Setup <a id="enterprise"></a>
 

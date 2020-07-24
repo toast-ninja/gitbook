@@ -4,7 +4,7 @@ description: >-
   keep your team efficient, healthy, and happy.
 ---
 
-# Toast for Enterprise \(ToastE\)
+# Welcome to ToastE
 
 The larger the engineering org, and the more layers of management, the further removed an engineer can feel. By addressing engineering best practices at the team level, we can scale code collaboration to organizations of any size and remote distribution.
 

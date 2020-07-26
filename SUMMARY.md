@@ -31,6 +31,6 @@
 
 ---
 
-* [Enterprise Terms](terms-and-conditions.md)
+* [Enterprise Terms](terms.md)
 * [Support](support.md)
 

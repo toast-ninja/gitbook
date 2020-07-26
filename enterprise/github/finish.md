@@ -10,6 +10,8 @@
 
 ### 3. Save the variables using this template.
 
+Save this as plain text in a secure location. You will need this later.
+
 ```text
 GITHUB_APP_ID=
 GITHUB_APP_CLIENT_ID=
@@ -17,14 +19,9 @@ GITHUB_APP_CLIENT_SECRET=
 GITHUB_APP_URL=
 ```
 
-Save this as plain text in a secure location. You will need this in the next step.
+### 4. Generate Token.
 
-![](../../.gitbook/assets/image%20%2812%29.png)
+Similarly, generate a private key and save it in a secure location.
 
-{% hint style="info" %}
-We've supplied this PNG.  
-Just download and set as the logo for your new Toast app.
-{% endhint %}
-
-{% file src="../../.gitbook/assets/toast-logo-padded-512x.png" caption="Download Toast Logo" %}
+![](../../.gitbook/assets/image%20%2816%29.png)
 

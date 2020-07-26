@@ -1,10 +1,10 @@
 ---
-description: Instructions for setting up a new Toast GitHub app
+description: >-
+  For on-premise installation of Toast, you will have to create a replica of the
+  Toast GitHub integration. We'll guide you through these simple steps.
 ---
 
 # GitHub App
-
-For on-premise installation of Toast, you will have to create a replica of the Toast GitHub integration. We'll guide you through these simple steps.
 
 ### 1. Navigate to: GitHub Enterprise Settings  &gt;  Developer Settings  &gt;  GitHub Apps
 

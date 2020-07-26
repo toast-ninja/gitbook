@@ -12,7 +12,7 @@ Looking for non-enterprise Toast? Visit [toast.chat](https://toast.chat) 🍞
 
 The larger the engineering org, and the more layers of management, the further removed an engineer can feel. By addressing engineering best practices at the team level, we can scale code collaboration to organizations of any size and remote distribution.
 
-![ToastE dons a bowtie for its enterprisey role.](.gitbook/assets/toaste-logo.png)
+![Toast is ready for enterprise!](.gitbook/assets/toaste-logo%20%281%29.png)
 
 ## Using Toast with [GitHub Enterprise](https://github.com/enterprise)
 

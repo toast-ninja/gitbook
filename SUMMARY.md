@@ -27,6 +27,7 @@
     * [Event Subscriptions](enterprise/finalize-configuration/update-slack-app/event-subscriptions/README.md)
       * [Bot Events](enterprise/finalize-configuration/update-slack-app/event-subscriptions/bot-events.md)
       * [Workspace Events](enterprise/finalize-configuration/update-slack-app/event-subscriptions/workspace-events.md)
+* [Use Toast](enterprise/use-toast.md)
 * [Todos](enterprise/todos.md)
 
 ---

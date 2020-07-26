@@ -2,7 +2,7 @@
 
 ### Lastly, update the app icon. :\)
 
-![This app icon is unique to ToastE.](../../.gitbook/assets/image%20%2828%29.png)
+![This app icon is unique to ToastE.](../../.gitbook/assets/image%20%2829%29.png)
 
 {% hint style="info" %}
 We've supplied this PNG.  

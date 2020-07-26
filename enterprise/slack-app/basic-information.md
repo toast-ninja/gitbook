@@ -9,7 +9,9 @@ description: >-
 
 ## We will enable Bots and Permissions first.
 
-![](../../../.gitbook/assets/image%20%2821%29.png)
+![](../../.gitbook/assets/image%20%2822%29.png)
+
+### Click Bots to begin.
 
 
 

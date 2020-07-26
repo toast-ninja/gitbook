@@ -1,6 +1,6 @@
 # Bots & Permissions
 
-![](../../../.gitbook/assets/image%20%2822%29.png)
+![](../../.gitbook/assets/image%20%2823%29.png)
 
 ## Scopes
 
@@ -46,21 +46,24 @@
   </tbody>
 </table>
 
-Once you double-check that everything looks good, you can click  🔙   on your browser. Slack autosaves the token scopes.
+Once you double-check that everything looks good, you can click  🔙   on your browser.  
+Slack autosaves the token scopes.
 
 Confirm that the Bot Token has been added:
 
-![](../../../.gitbook/assets/image%20%2827%29.png)
+![](../../.gitbook/assets/image%20%2828%29.png)
 
 ### 1. Edit &gt; Display Name =&gt; Toast
 
 ### 2. Always Show My Bot as Online ✅
 
-![](../../../.gitbook/assets/image%20%2818%29.png)
+![](../../.gitbook/assets/image%20%2819%29.png)
 
 ### 3. Messages Tab \(automatically checked\)
 
-![](../../../.gitbook/assets/image%20%2823%29.png)
+![](../../.gitbook/assets/image%20%2824%29.png)
 
 ### 4. Click browser  🔙  to Basic Information
+
+![&quot;Add features and functionality&quot; should now look like this.](../../.gitbook/assets/image%20%2816%29.png)
 

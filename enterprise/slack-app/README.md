@@ -10,13 +10,13 @@ description: >-
 
 You will need to be signed in as an admin.
 
-![](../../.gitbook/assets/image%20%2827%29.png)
+![](../../.gitbook/assets/image%20%2839%29.png)
 
 ### 2. Create New App.
 
 Make sure you select the correct workspace to install Toast to.
 
-![](../../.gitbook/assets/image%20%2821%29.png)
+![](../../.gitbook/assets/image%20%2832%29.png)
 
 ### 3. Click _Create App_.
 

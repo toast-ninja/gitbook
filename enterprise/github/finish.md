@@ -23,5 +23,5 @@ GITHUB_APP_URL=
 
 Similarly, generate a private key and save it in a secure location.
 
-![](../../.gitbook/assets/image%20%2817%29.png)
+![](../../.gitbook/assets/image%20%2818%29.png)
 

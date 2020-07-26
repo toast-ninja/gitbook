@@ -1,4 +1,6 @@
-# Getting Started
+# Host Setup
+
+
 
 {% hint style="warning" %}
 **Prerequisites**
@@ -22,7 +24,8 @@ The Docker Compose file references the following images:
 * 5 GB Storage
 
 {% hint style="info" %}
-When you spin up the instance, make sure to jot down the instance's private IP, or its url if you set up a route for it internally.
+When you spin up the instance, note the instance's **private IP for the ToastE instance**  
+or its url if you set up a route for it internally. You will need this in the next step.
 {% endhint %}
 
 **Network Requirements \(summary\)**

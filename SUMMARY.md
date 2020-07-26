@@ -1,10 +1,10 @@
 # Table of contents
 
-* [Welcome to ToastE](README.md)
+* [Welcome to ToastE!](README.md)
 
 ## Enterprise Setup <a id="enterprise"></a>
 
-* [Getting Started](enterprise/start.md)
+* [Host Setup](enterprise/start.md)
 * [GitHub App](enterprise/github/README.md)
   * [Set Required Fields](enterprise/github/fields.md)
   * [Set Permissions](enterprise/github/permissions.md)
@@ -17,14 +17,20 @@
   * [Bots & Permissions](enterprise/slack-app/bots-and-permissions.md)
   * [App Credentials](enterprise/slack-app/app-credentials.md)
   * [Display Information](enterprise/slack-app/display-information.md)
-* [Deploy ToastE](enterprise/deploy-toaste.md)
+* [Deploy ToastE](enterprise/deploy-toaste/README.md)
+  * [env vars](enterprise/deploy-toaste/env-vars.md)
 * [Expose ToastE API](enterprise/expose-toaste-api.md)
 * [Finalize Configuration](enterprise/finalize-configuration/README.md)
-  * [Update Slack App](enterprise/finalize-configuration/update-slack-app.md)
+  * [Update Slack App](enterprise/finalize-configuration/update-slack-app/README.md)
+    * [Interactive Components](enterprise/finalize-configuration/update-slack-app/interactive-components.md)
+    * [Slash Commands](enterprise/finalize-configuration/update-slack-app/slash-commands.md)
+    * [Event Subscriptions](enterprise/finalize-configuration/update-slack-app/event-subscriptions/README.md)
+      * [Bot Events](enterprise/finalize-configuration/update-slack-app/event-subscriptions/bot-events.md)
+      * [Workspace Events](enterprise/finalize-configuration/update-slack-app/event-subscriptions/workspace-events.md)
 * [Todos](enterprise/todos.md)
 
 ---
 
-* [Terms & Conditions](terms-and-conditions.md)
+* [Enterprise Terms](terms-and-conditions.md)
 * [Support](support.md)
 

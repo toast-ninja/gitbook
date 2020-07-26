@@ -1,6 +1,6 @@
 # Bots & Permissions
 
-![](../../.gitbook/assets/image%20%2823%29.png)
+![](../../.gitbook/assets/image%20%2835%29.png)
 
 ## Scopes
 
@@ -51,17 +51,17 @@ Slack autosaves the token scopes.
 
 Confirm that the Bot Token has been added:
 
-![](../../.gitbook/assets/image%20%2828%29.png)
+![](../../.gitbook/assets/image%20%2840%29.png)
 
 ### 1. Edit &gt; Display Name =&gt; Toast
 
 ### 2. Always Show My Bot as Online ✅
 
-![](../../.gitbook/assets/image%20%2819%29.png)
+![](../../.gitbook/assets/image%20%2825%29.png)
 
 ### 3. Messages Tab \(automatically checked\)
 
-![](../../.gitbook/assets/image%20%2824%29.png)
+![](../../.gitbook/assets/image%20%2836%29.png)
 
 ### 4. Click browser  🔙  to Basic Information
 

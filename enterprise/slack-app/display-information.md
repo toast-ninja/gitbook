@@ -16,9 +16,9 @@ Use the same icon we uploaded for the GitHub app. Provided here again for conven
 
 ### 4. Background color
 
-`#2C2D30` \(default\)
+`#2C2D30`
 
-![](../../.gitbook/assets/image%20%2826%29.png)
+![](../../.gitbook/assets/image%20%2838%29.png)
 
 ### 5. Save Changes
 

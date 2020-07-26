@@ -4,13 +4,15 @@ description: >-
   keep your team efficient, healthy, and happy.
 ---
 
-# Welcome to ToastE
-
-The larger the engineering org, and the more layers of management, the further removed an engineer can feel. By addressing engineering best practices at the team level, we can scale code collaboration to organizations of any size and remote distribution.
+# Welcome to ToastE!
 
 {% hint style="info" %}
 Looking for non-enterprise Toast? Visit [toast.chat](https://toast.chat) 🍞
 {% endhint %}
+
+The larger the engineering org, and the more layers of management, the further removed an engineer can feel. By addressing engineering best practices at the team level, we can scale code collaboration to organizations of any size and remote distribution.
+
+![ToastE dons a bowtie for its enterprisey role.](.gitbook/assets/toaste-logo.png)
 
 ## Using Toast with [GitHub Enterprise](https://github.com/enterprise)
 
@@ -19,12 +21,13 @@ If you haven't already, [contact us](https://toast-team.gitbook.io/toast/support
 #### Setup Overview
 
 1. [Request](https://forms.gle/YmAxTfwEARBSis2F8) and obtain the ToastE kit.
-2. Create GitHub app.
-3. Create Slack app.
-4. Deploy ToastE.
-5. Expose ToastE API to Slack.
-6. Finalize configuration.
-7. Use ToastE!
+2. Set up host.
+3. Create GitHub app.
+4. Create Slack app.
+5. Deploy ToastE.
+6. Expose ToastE API to Slack.
+7. Finalize configuration.
+8. Use ToastE!
 
 Start your ToastE [free trial](https://forms.gle/YmAxTfwEARBSis2F8).
 

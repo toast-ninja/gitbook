@@ -10,7 +10,7 @@
   * [Set Permissions](enterprise/github/permissions.md)
   * [Set Event Subscription](enterprise/github/events.md)
   * [Set Installation Scope](enterprise/github/installation.md)
-  * [Capture Environment Variables](enterprise/github/env.md)
+  * [Environment Variables](enterprise/github/env-vars.md)
   * [Display Information](enterprise/github/display.md)
 * [Slack App](enterprise/slack/README.md)
   * [Basic Information](enterprise/slack/basic-info.md)

@@ -1,4 +1,4 @@
-# Capture Environment Variables
+# Environment Variables
 
 ### 1. Click in to the newly made app.
 

@@ -14,9 +14,12 @@ You will need to be signed in as an admin.
 
 ### 2. Create New App.
 
-Make sure you select the correct workspace to install Toast to.
+Name the app `Toast`  
+Select the workspace you are setting this up for.
 
 ![](../../.gitbook/assets/image%20%2832%29.png)
+
+
 
 ### 3. Click _Create App_.
 

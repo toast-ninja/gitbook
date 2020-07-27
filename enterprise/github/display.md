@@ -1,4 +1,4 @@
-# Finish
+# Display Information
 
 ### Lastly, update the app icon. :\)
 

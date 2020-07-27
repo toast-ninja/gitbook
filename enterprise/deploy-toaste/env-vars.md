@@ -3,26 +3,26 @@
 {% hint style="warning" %}
 #### Prerequisites
 
+* ToastE API URL \*
 * GitHub app variables  †
 * GitHub app private key  †
 * Slack app credentials  ‡
-* ToastE Service URL §
-* `TOASTE_ID`\* \* This will be provided to you with your ToastE Kit. [Contact us](https://toast-team.gitbook.io/toast/support) if you have not received this.
+* `TOASTE_ID` Your `TOASTE_ID` is provided to you with your ToastE Kit. [Contact us](https://toast-team.gitbook.io/toast/support) if you do not have this.
 {% endhint %}
 
 ### In case you missed them...
 
-####  **†** GitHub
+#### \* ToastE API URL
+
+{% page-ref page="../host.md" %}
+
+#### **†** GitHub
 
 {% page-ref page="../github/env-vars.md" %}
 
 #### ‡ Slack
 
 {% page-ref page="../slack/app-credentials.md" %}
-
-#### § Host
-
-{% page-ref page="../host.md" %}
 
 ## Set environment variables
 

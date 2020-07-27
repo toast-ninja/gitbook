@@ -48,5 +48,5 @@ SLACK_APP_ID=
 API_URL=<ToastE Service URL e.g. https://toast.acme.com>
 ```
 
-
+#### Save this in the `.env` file.
 

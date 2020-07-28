@@ -8,7 +8,7 @@ Finally, you can add Toast to your Slack workspace. Just navigate to:
 
 e.g.: `http://192.0.0.168:10451/start`
 
-Follow the link to install Toast to your Slack, and then your GitHub Enterprise instance.   
+Follow the link to connect Toast to your Slack, and then your GitHub Enterprise instance.   
   
 After that, you can open DM in Slack with @toast, and proceed with adding users.
 

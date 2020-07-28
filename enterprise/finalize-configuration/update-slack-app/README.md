@@ -1,7 +1,7 @@
 # Update Slack App
 
 {% hint style="warning" %}
-**Prerequisite:** ToastE API Public URL
+**Prerequisite:** `{TOASTE_API_PUBLIC_URL}`
 {% endhint %}
 
 ### 1. Go to [your Slack apps](https://api.slack.com/apps/).

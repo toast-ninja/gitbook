@@ -7,9 +7,8 @@ description: >-
 # Set Required Fields
 
 {% hint style="warning" %}
-**Prerequisites**   
-Private network address for your ToastE Instance \(obtained previously\)  
-Replace **API\_URL** with that address in all snippets below.
+**Prerequisites:** The `API_URL` in your ENV variables file.  
+Replace `API_URL` with that address in all snippets below.
 {% endhint %}
 
 ## Basic information
@@ -49,6 +48,6 @@ Replace **API\_URL** with that address in all snippets below.
 ## **SSL verification**
 
 {% hint style="info" %}
-Depending on whether {API\_URL} uses HTTPS or not enable or disable SSL verification. \(Since we are inside private VPN it's often acceptable to disable this option\)
+Depending on whether `API_URL` uses HTTPS or not, enable or disable SSL verification respectively. \(It is commonly acceptable to disable this option inside private VPN.\)
 {% endhint %}
 

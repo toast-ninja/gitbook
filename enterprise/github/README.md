@@ -1,7 +1,7 @@
 ---
 description: >-
-  For on-premise installation of Toast, you will have to create a replica of the
-  Toast GitHub integration. We'll guide you through these simple steps.
+  To install ToastE on-premise, you will have to create a replica of the Toast
+  GitHub integration. We'll guide you through these simple steps.
 ---
 
 # GitHub App

@@ -19,7 +19,7 @@
   * [App Credentials](enterprise/slack/app-credentials.md)
   * [Display Information](enterprise/slack/display.md)
 * [Deploy ToastE](enterprise/deploy-toaste/README.md)
-  * [Setup Verification](enterprise/deploy-toaste/setup-verification.md)
+  * [Verification](enterprise/deploy-toaste/verification.md)
 * [Expose ToastE API](enterprise/expose-toaste-api.md)
 * [Finalize Configuration](enterprise/finalize-configuration/README.md)
   * [Update Slack App](enterprise/finalize-configuration/update-slack-app/README.md)

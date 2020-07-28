@@ -1,8 +1,8 @@
-# Setup Verification
+# Verification
 
 ### 1. Go to `{API_URL}/start` in your browser
 
-Which could look like: `http://192.0.0.168:10451/start`
+e.g.: `http://192.0.0.168:10451/start`
 
 💡 Note: If you configured a different port during [Host Setup](../host.md), you will use that port here instead.
 

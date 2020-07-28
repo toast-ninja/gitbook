@@ -5,9 +5,9 @@
 
 * Host for running ToastE and dependent services
 * ToastE kit
-* Docker 19.03.8 or later
-* docker-compose version 1.25.5 or later \(comes with docker\)
-* Text file to start collecting ENV variables during setup
+* Docker version 19.03.8 or later
+* `docker-compose` version 1.25.5 or later \(comes with docker\)
+* Text file to start collecting `ENV` variables during setup
 {% endhint %}
 
 Docker Compose file \(`docker-compose.yml`\) is provided for the convenience of running everything on one VM. It is possible to run services separately if you choose.

@@ -2,8 +2,8 @@
 
 * ~~GitHub App / Capture Env Vars: Rea to finish page~~
 * ~~Slack App: Anton to show Rea, and Rea to do page~~
-* Deploy ToastE: Anton needs to fill in information here. Jesse provided a skeleton/stub.
-* Finalize Configuration: Anton needs to give us these steps, nobody knows.
+* ~~Deploy ToastE: Anton needs to fill in information here. Jesse provided a skeleton/stub.~~
+* ~~Finalize Configuration: Anton needs to give us these steps, nobody knows.~~
 * ~~Do we need to protect our code with a license? \(~~[~~check github enterprise license~~](https://enterprise.github.com/license)~~\)~~
 * Talk to the customer about pricing. Anton todo soon, we don't want to spring this on them and make them regret.
   * Why are we charging more for enterprise vs our normal hosted option?

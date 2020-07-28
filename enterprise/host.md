@@ -19,14 +19,12 @@ The Docker Compose file references the following images:
 * Postgres 
 * Redis
 
-#### Host Requirements
+### Host Requirements
 
 * 2 GB RAM
 * 5 GB Storage
 
-#### 
-
-#### Private **Network Requirements**
+### Private **Network Requirements**
 
 ToastE needs bidirectional network access to your GitHub Enterprise instance. Most ToastE customers opt for putting them in the same VPN/VPC. 
 
@@ -34,19 +32,18 @@ ToastE needs bidirectional network access to your GitHub Enterprise instance. Mo
 When you spin up the instance, note the instance's **private IP for the ToastE instance** or its URL if you set up a DNS for it internally. You will need this in the next step.
 {% endhint %}
 
-Toast by default runs on port `10451`. So your URL might look like: `http://192.0.0.168:10451` It's the first environment variable you'd need to collect:
+Toast by default runs on port `10451`. So your URL might look like: `http://192.0.0.168:10451`  
+It's the first environment variable you'd need to collect:
 
 ```text
 API_URL=http://192.0.0.168:10451
 ```
 
-#### 
+### Public Network **Requirements**
 
-#### Public Network **Requirements**
+ToastE also needs bidirectional network access to Slack API via public IP. It's possible to set this up using services like [ngrok](https://ngrok.com/) or your cloud provider configuration. **Make sure the public address stays static.** This step can be done later after we get ToastE up and running.
 
-ToastE also needs bidirectional network access to Slack API via public IP. It's possible to set this up using services like [https://ngrok.com/](https://ngrok.com/) or using your cloud provider configuration. Make sure public address stays stable. This step can be done later after we get ToastE up and running.
-
-More info to come about this in the "Expose ToastE API step"
+More info in the Expose ToastE API step.
 
 #### \*\*\*\*
 

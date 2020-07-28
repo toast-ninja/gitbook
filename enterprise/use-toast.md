@@ -15,7 +15,7 @@ After that, you can open DM in Slack with @toast, and proceed with adding users.
 ### All done! 🎉 
 
 {% hint style="success" %}
-**Support**  
+**You have our support.**  
 If something is not working, please [contact us](../support.md).
 {% endhint %}
 

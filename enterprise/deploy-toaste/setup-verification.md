@@ -1,8 +1,8 @@
 # Setup Verification
 
-### 1. Go to `{API_URL}` in your browser
+### 1. Go to `{API_URL}/start` in your browser
 
-Which could look like: `http://192.0.0.168:10451`
+Which could look like: `http://192.0.0.168:10451/start`
 
 💡  Note: If you configured a different port during [Host Setup](https://toast-enterprise.gitbook.io/toaste/enterprise/host), you will use that port here instead.
 

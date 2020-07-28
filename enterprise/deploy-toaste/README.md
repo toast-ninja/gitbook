@@ -1,17 +1,42 @@
 # Deploy ToastE
 
+{% hint style="warning" %}
+**Prerequisites**
 
+* ToastE {API\_URL}
+* GitHub app variables
+* Slack app variables
+* `TOASTE_ID` Your `TOASTE_ID` is provided to you with your ToastE Kit. [Contact us](https://toast-team.gitbook.io/toast/support) if you do not have this.
+{% endhint %}
 
-1. Get the files from the ToastE kit onto the instance that's going to run it
+{% hint style="warning" %}
+Make sure Docker is installed on that instance \(Docker compose should be installed along with it\)
 
-.
+* Docker 19.03.8 or later
+* docker-compose version 1.25.5 or later
+{% endhint %}
 
-We recommend creating a folder like `toast` and then:
+Get the files from the ToastE kit onto the instance that's going to run it
 
-* copy `docker-compose.yml` that we provided you with
-* create`.env.external` and paste all collected environment variables from prior steps
+We recommend creating a folder like `toast` and then copy there `docker-compose.yml` that we provided you with.
 
-Here is an example `.env.external` file:
+## Set environment variables
+
+### In case you missed them...
+
+#### ToastE {API\_URL}
+
+{% page-ref page="../host.md" %}
+
+#### GitHub
+
+{% page-ref page="../github/env-vars.md" %}
+
+#### Slack
+
+{% page-ref page="../slack/app-credentials.md" %}
+
+Create`.env.external` and paste all collected environment variables from prior steps there. Here is an example `.env.external` file:
 
 ```text
 TOASTE_ID=G027RC2UL5R
@@ -32,24 +57,24 @@ GITHUB_APP_URL=https://github.acme.com/github-apps/toast
 GITHUB_APP_PRIVATE_KEY=-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEAqoF5YAHZcQ+awCMkGrcTFwZ+5mTmZkQiQ89jwz54npQ/9DOO\nk0yfRoF4KBvgIfbIlsc9n9fp71+EhYZ6LcHQidgO3czLw3fkzmN4VfcNCHnnQ394\nP9B2MwpOzXUKGg0DXlIctkHCfPqOkPfNGj/NioSBHHT0XdTvGoKa6oMuOYFOBHst\nJv2XR2ILOQWWA+HsMQWNOj3bVtKxaV2ppgzELaDguMD2PNmDOPFPmmT8pIFSch5m\nFtaWXGNnfaAYXB0hwXhzayOeIpUMglESzgDpmQsvogYtrvw2j4C8H0aazI5g+Yt/\nv/TOmfHTUD+rHxBagz2eKYxdO1Riyn8SovoDNQIDAQABAoIBAAG9kpydSDf0PdMq\nSKsRJVu90DvP2d4/Yc4pZs5Oa/LKdqCqihEM3i9dEPnv1ujh2QhY/lMMZDHyWqr2\nRXcEHHnbv8MZ3RagubA1qbvO6s4kWG0C9xpHqX055LYKNNExQtCKrApcP30BHcVz\nEh/reNCqK5s7wmbWzp4JqUUtk6I4oGwpdODKLQ5IoYzssyMKGZmZ/zuINsEnrMUx\nvH/qS6vyBgraJV+1HQSb9ZPpSDxyr8066wLa87/esPuXY6AnoXd7yDyu0B+JWA6n\nOmK96PFnVfsTUEfF1YlkhtXWxnM6DwsI9d5Cv76HibOZ7ladaIgxtVgiteHD8M+d\ndUQQwsECgYEA1D7aSkN+fsHsoKKU9nOz7rSlmMkX4I/0cJx/riGpuBYPOspKf40q\nkwrQ5PleabY5VYlGuSia34oQ9fQB4eaSrF0qc0CMJcksukgCqTocPWr/BnGmoOqH\nht+XmM9IAtwpMQaDuEipHOlW7OMP1fi3w/xgs962OjzJSzRagJLlsQUCgYEAzafT\nw8yEISWH2PbGUNW7tmzXBptz7sXwREtVfV9Y35x4A7sdN5pzWSKnzo2QRoB8sxZ8\ngorBafmRQZjIOO37GwpIwBWGtQ7+GNRozRS8nSLX+ND6ZCwc8EUfxWux82TpfBAc\netlnPmcGuNYtLVXklenhTRQYVI7f0n6ylU5xYHECgYEAuMGx0b2pKnxzGG4Oj+6u\nLdfQ4wwCHfgSB8kjmBgznkyNm1amvRvMeM2MhBXTKuB2TlA+YUXIc1jDZOawkM3e\n1e4P2t3QYcAakFnI/zjXhltSfnCGZUNjEHQoidu+SscNkGCkXtHZbJJuma0aht+I\nUDGsmEcBh/aMH0wGkC/PhGUCgYAPYrnmERvlevBR3Ax0KblUaYogtWqT930FLvmj\nWonEmOklpk8GROjSR1R0kIS1sZEiuNDx1z2nFwO1+58nGy7JFBjjPfkI/Kkn5GQ+\ny4lc3Cl6NPA2pFI564H3/BmhEvCg1ne6/R7LPVv0YhmZJa7nREsVwCYd1V6LWe00\nXF0BEQKBgF/UykgPfgrqiIXq4AtoXgL6MBn4PifyCpjtya44LCjQFiM8lrPBg4sl\nPufTcDblPPlxTt6ehJXToe80biVC3IMJXX8ICJ8OPsRmWuBKDgyY9Wy+nsbfuiSt\nwmGI+IkkqlMxbB6ylGVgPw1rILDzwO21hKhj+dxf8pba7GM5AEoH\n-----END RSA PRIVATE KEY-----
 ```
 
-{% hint style="warning" %}
-Make sure Docker is installed on that instance \(Docker compose should be installed along with it\)
-
-* Docker 19.03.8 or later
-* docker-compose version 1.25.5 or later
-{% endhint %}
-
-Configure connection to Toast's private docker registry using credentials you set up. You should have received an invitation from Docker to our Docker Hub team. This can be done by running:
+Configure the connection to Toast's private docker registry using credentials you set up. You should have received an invitation from Docker to our Docker Hub team. This can be done by running:
 
 ```text
 docker login
 ```
 
-Run 
+In the folder with `docker-compose.yml` and `.env.example` file run:
 
 ```text
 docker-compose up
 ```
 
-You might notice some errors and service restart during initial warm up. It's likely normal. There is no easy way for services to wait for one another in the new docker-compose and we implemented it by letting our service restart until it connects to other services. Wait for the output to stop, then one of the few last lines
+You might notice some errors and service restarts during the initial warm-up. It's likely normal. There is no easy way for services to wait for one another in the new docker-compose and we implemented it by letting our service restart until it connects to other services. Wait for the output to stop, then one of the few last lines should say:
+
+```text
+toaste_backend | [web][info] Starting web process...
+toaste_backend | [web][info] HTTP Server is listening at http://localhost:10451
+```
+
+On the next step, we can verify that our setup is working.
 

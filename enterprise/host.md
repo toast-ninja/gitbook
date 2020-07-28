@@ -10,7 +10,7 @@
 * Text file to start collecting `ENV` variables during setup
 {% endhint %}
 
-Docker Compose file \(`docker-compose.yml`\) is provided for the convenience of running everything on one VM. It is possible to run services separately if you choose.
+Docker Compose file \(`docker-compose.yml`\) is provided for the convenience of running everything on one VM. _It is possible to run services separately if you choose._
 
 The Docker Compose file references the following images: 
 
@@ -19,7 +19,7 @@ The Docker Compose file references the following images:
 * Postgres 
 * Redis
 
-### Host Requirements
+## Host Requirements
 
 * 2 GB RAM
 * 5 GB Storage
@@ -43,17 +43,15 @@ API_URL=http://192.0.0.168:10451
 
 ToastE also needs bidirectional network access to Slack API via public IP. It's possible to set this up using services like [ngrok](https://ngrok.com/) or your cloud provider configuration. **Make sure the public address stays static.** This step can be done later after we get ToastE up and running.
 
-More info in the Expose ToastE API step.
+More info in the [Expose ToastE API](https://toast-enterprise.gitbook.io/toaste/enterprise/expose-toaste-api) step.
 
-#### \*\*\*\*
+## **Database**
 
-#### **Database**
-
-By default, ToastE uses dockerized Postgres instance and stores data on your local file system in the same working directory where your run `docker-compose.yml`file in the `postgres-data` folder. It's possible to use an externally managed database if you choose so.   
+By default, ToastE uses dockerized Postgres instance and stores data on your local file system in the same working directory where your run `docker-compose.yml`file in the `postgres-data` folder. _It is possible to use an externally managed database if you choose._   
   
-To use managed database follow these steps:
+To use managed database:
 
-* Make sure Postgress runs version 10.11+
+* Make sure Postgres runs version 10.11+
 * Remove or comment out Postgres section from `docker-compose.yml` file. Make sure you remove it from `depends_on` section for ToastE service as well
 * Provide a connection string in the environment variable:
 
@@ -61,7 +59,7 @@ To use managed database follow these steps:
 DATABASE_URL=postgres://toast:toast@postgres:5432/toast
 ```
 
-#### Enterprise Id
+## Enterprise ID
 
 We provided you with your unique TOASTE\_ID that must be set in ENV variables as well. Your file now should look similar to:
 

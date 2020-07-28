@@ -34,6 +34,7 @@ Even though ToastE is listening over a public connection, there is no security r
 
 ### Summary
 
-As a result of this configuration, you should have public URL that toast is available by, we will refer to it as `{TOASTE_API_PUBLIC_URL}`in the following sections \(not to be confused with `API_URL` from ENV variables\). You can verify that it works by accessing:  
-`{TOASTE_API_PUBLIC_URL}/start` where you should be able to see the page we've seen before during [Setup Verification](deploy-toaste/verification.md) step.
+As a result of this configuration, you should have a publicly accessible URL for ToastE. We will refer to it as `{TOASTE_API_PUBLIC_URL}`in the following sections \(not to be confused with `API_URL` from ENV variables\). You can verify that it works by accessing:  
+`{TOASTE_API_PUBLIC_URL}/start`   
+Confirm it is the same page in the [Setup Verification](deploy-toaste/verification.md) step.
 

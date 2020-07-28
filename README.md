@@ -7,7 +7,7 @@ description: >-
 # Welcome to ToastE!
 
 {% hint style="info" %}
-Looking for non-enterprise Toast? Visit [toast.chat](https://toast.chat) 🍞
+Looking for non-enterprise Toast? Visit [toast.chat](https://toast.chat) 🍞 
 {% endhint %}
 
 The larger the engineering org, and the more layers of management, the further removed an engineer can feel. By addressing engineering best practices at the team level, we can scale code collaboration to organizations of any size and remote distribution.

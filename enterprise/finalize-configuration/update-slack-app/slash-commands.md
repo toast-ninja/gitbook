@@ -26,7 +26,7 @@
 
 ### 7. Save
 
-### 8. Browser  🔙 
+### 8. Browser 🔙
 
 ![](../../../.gitbook/assets/image%20%2817%29.png)
 

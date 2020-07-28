@@ -1,20 +1,21 @@
 # Use Toast
 
-## Final Instructions
+## Onboard
 
-Finally, you can install Toast to your workspace, just navigate to:
+Finally, you can add Toast to your Slack workspace. Just navigate to:
 
 `{API_URL}/slack`
 
-Which could look like: `http://192.0.0.168:10451/start`
+e.g.: `http://192.0.0.168:10451/start`
 
-Follow the link and install Toast to your Slack and then GitHub Enteprise instance.   
+Follow the link to install Toast to your Slack, and then your GitHub Enterprise instance.   
   
-After that, you can open DM in slack with @toast and you should see onboarding instructions there.
+After that, you can open DM in Slack with @toast, and proceed with adding users.
 
-## Support
+### All done! 🎉 
 
+{% hint style="success" %}
+**Support**  
 If something is not working, please [contact us](../support.md).
-
-For product questions and help with app use and configuration feel free to just type `/toast ask <your question>` right in Slack and we will get an email automatically.
+{% endhint %}
 

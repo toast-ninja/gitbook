@@ -25,7 +25,7 @@
 * [Contact us](../../../../support.md)
 {% endhint %}
 
-### 4. Proceed to _Subscribe to bot events_
+### 4. Click on _Subscribe to bot events_
 
 
 

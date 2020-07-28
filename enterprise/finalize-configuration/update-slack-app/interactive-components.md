@@ -12,7 +12,7 @@
 
 ### 3. Save Changes
 
-### 4. Browser  🔙 
+### 4. Browser 🔙 
 
 ![](../../../.gitbook/assets/image%20%2827%29.png)
 

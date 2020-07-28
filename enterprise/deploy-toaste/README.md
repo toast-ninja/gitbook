@@ -1,11 +1,55 @@
 # Deploy ToastE
 
-* Get the files from the ToastE kit onto the instance thats going to run it
-* Make sure Docker is installed on that instance \(Docker compose should be installed along with it\)
-* Configure connection to Toast's private docker registry \(Anton TODO, explain better\)
-* Fill in the .env file with info captured during previous steps \(Anton TODO, to verify\)
-* Source the .env file \(Anton TODO\)
-* Run `docker-compose up`
 
 
+1. Get the files from the ToastE kit onto the instance that's going to run it
+
+.
+
+We recommend creating a folder like `toast` and then:
+
+* copy `docker-compose.yml` that we provided you with
+* create`.env.external` and paste all collected environment variables from prior steps
+
+Here is an example `.env.external` file:
+
+```text
+TOASTE_ID=G027RC2UL5R
+API_URL=https://toast.acme.com
+
+SLACK_APP_CLIENT_ID=506995332789.565588071812
+SLACK_APP_CLIENT_SECRET=775905b1733b571cf245d456af34f56b
+SLACK_APP_VERIFICATION_TOKEN=Zsd6jZcNyWFjlAbelsbGBxll
+SLACK_APP_SIGNING_SECRET=42bf6a4d60ebf532ded6b4fce1a37ce4
+SLACK_APP_ID=ATHGA23PW
+
+GITHUB_URL=https://github.acme.com
+GITHUB_APP_CLIENT_ID=Iv1.ae6b76dfe30b4072
+GITHUB_APP_CLIENT_SECRET=56491509c1afdfdd9a7342c9d1c18a123c0f5e42
+GITHUB_APP_ID=1
+GITHUB_APP_URL=https://github.acme.com/github-apps/toast
+
+GITHUB_APP_PRIVATE_KEY=-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEAqoF5YAHZcQ+awCMkGrcTFwZ+5mTmZkQiQ89jwz54npQ/9DOO\nk0yfRoF4KBvgIfbIlsc9n9fp71+EhYZ6LcHQidgO3czLw3fkzmN4VfcNCHnnQ394\nP9B2MwpOzXUKGg0DXlIctkHCfPqOkPfNGj/NioSBHHT0XdTvGoKa6oMuOYFOBHst\nJv2XR2ILOQWWA+HsMQWNOj3bVtKxaV2ppgzELaDguMD2PNmDOPFPmmT8pIFSch5m\nFtaWXGNnfaAYXB0hwXhzayOeIpUMglESzgDpmQsvogYtrvw2j4C8H0aazI5g+Yt/\nv/TOmfHTUD+rHxBagz2eKYxdO1Riyn8SovoDNQIDAQABAoIBAAG9kpydSDf0PdMq\nSKsRJVu90DvP2d4/Yc4pZs5Oa/LKdqCqihEM3i9dEPnv1ujh2QhY/lMMZDHyWqr2\nRXcEHHnbv8MZ3RagubA1qbvO6s4kWG0C9xpHqX055LYKNNExQtCKrApcP30BHcVz\nEh/reNCqK5s7wmbWzp4JqUUtk6I4oGwpdODKLQ5IoYzssyMKGZmZ/zuINsEnrMUx\nvH/qS6vyBgraJV+1HQSb9ZPpSDxyr8066wLa87/esPuXY6AnoXd7yDyu0B+JWA6n\nOmK96PFnVfsTUEfF1YlkhtXWxnM6DwsI9d5Cv76HibOZ7ladaIgxtVgiteHD8M+d\ndUQQwsECgYEA1D7aSkN+fsHsoKKU9nOz7rSlmMkX4I/0cJx/riGpuBYPOspKf40q\nkwrQ5PleabY5VYlGuSia34oQ9fQB4eaSrF0qc0CMJcksukgCqTocPWr/BnGmoOqH\nht+XmM9IAtwpMQaDuEipHOlW7OMP1fi3w/xgs962OjzJSzRagJLlsQUCgYEAzafT\nw8yEISWH2PbGUNW7tmzXBptz7sXwREtVfV9Y35x4A7sdN5pzWSKnzo2QRoB8sxZ8\ngorBafmRQZjIOO37GwpIwBWGtQ7+GNRozRS8nSLX+ND6ZCwc8EUfxWux82TpfBAc\netlnPmcGuNYtLVXklenhTRQYVI7f0n6ylU5xYHECgYEAuMGx0b2pKnxzGG4Oj+6u\nLdfQ4wwCHfgSB8kjmBgznkyNm1amvRvMeM2MhBXTKuB2TlA+YUXIc1jDZOawkM3e\n1e4P2t3QYcAakFnI/zjXhltSfnCGZUNjEHQoidu+SscNkGCkXtHZbJJuma0aht+I\nUDGsmEcBh/aMH0wGkC/PhGUCgYAPYrnmERvlevBR3Ax0KblUaYogtWqT930FLvmj\nWonEmOklpk8GROjSR1R0kIS1sZEiuNDx1z2nFwO1+58nGy7JFBjjPfkI/Kkn5GQ+\ny4lc3Cl6NPA2pFI564H3/BmhEvCg1ne6/R7LPVv0YhmZJa7nREsVwCYd1V6LWe00\nXF0BEQKBgF/UykgPfgrqiIXq4AtoXgL6MBn4PifyCpjtya44LCjQFiM8lrPBg4sl\nPufTcDblPPlxTt6ehJXToe80biVC3IMJXX8ICJ8OPsRmWuBKDgyY9Wy+nsbfuiSt\nwmGI+IkkqlMxbB6ylGVgPw1rILDzwO21hKhj+dxf8pba7GM5AEoH\n-----END RSA PRIVATE KEY-----
+```
+
+{% hint style="warning" %}
+Make sure Docker is installed on that instance \(Docker compose should be installed along with it\)
+
+* Docker 19.03.8 or later
+* docker-compose version 1.25.5 or later
+{% endhint %}
+
+Configure connection to Toast's private docker registry using credentials you set up. You should have received an invitation from Docker to our Docker Hub team. This can be done by running:
+
+```text
+docker login
+```
+
+Run 
+
+```text
+docker-compose up
+```
+
+You might notice some errors and service restart during initial warm up. It's likely normal. There is no easy way for services to wait for one another in the new docker-compose and we implemented it by letting our service restart until it connects to other services. Wait for the output to stop, then one of the few last lines
 

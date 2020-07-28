@@ -1,6 +1,6 @@
 # Bots & Permissions
 
-![](../../.gitbook/assets/image%20%2835%29.png)
+![Click &quot;Review Scopes to Add&quot; Button](../../.gitbook/assets/image%20%2835%29.png)
 
 ## Scopes
 
@@ -13,7 +13,7 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left"><b>Bot Token</b>
+      <td style="text-align:left"><b>Bot Token</b>  <b>Scopes</b>
       </td>
       <td style="text-align:left">app_mentions:read
         <br />channels:read
@@ -35,7 +35,7 @@
         <br />users.profile:read</td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>User Token</b>
+      <td style="text-align:left"><b>User Token Scopes</b>
       </td>
       <td style="text-align:left">
         <p>users:read</p>
@@ -66,4 +66,6 @@ Confirm that the Bot Token has been added:
 ### 4. Click browser  🔙  to Basic Information
 
 ![&quot;Add features and functionality&quot; should now look like this.](../../.gitbook/assets/image%20%2816%29.png)
+
+### 5. Scroll down until you see "App Credentials" 
 

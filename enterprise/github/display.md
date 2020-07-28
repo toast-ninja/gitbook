@@ -1,6 +1,6 @@
 # Display Information
 
-### Lastly, update the app icon. :\)
+### Lastly, update the app icon :\)
 
 ![This app icon is unique to ToastE.](../../.gitbook/assets/image%20%2842%29.png)
 

@@ -6,3 +6,5 @@ This is critical for other users in your organization to use Toast.
 
 ![](../../.gitbook/assets/image%20%281%29.png)
 
+### Finally, click "Create GitHub App" 
+

@@ -16,5 +16,5 @@ SLACK_APP_SIGNING_SECRET=
 SLACK_APP_VERIFICATION_TOKEN=
 ```
 
-
+### 3. Scroll down to "Display Information"
 

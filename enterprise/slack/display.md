@@ -1,3 +1,10 @@
+---
+description: >-
+  It's especially importnat to fill this step out as described to conform with
+  our brand guidelines and to make sure all co-workers can understand what
+  "Toast" is when they discover it in Slack.
+---
+
 # Display Information
 
 ### 1. App name

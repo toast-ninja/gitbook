@@ -12,6 +12,14 @@ Similarly to the above ToastE requires bidirectional communication with Slack in
 
 Slack needs a public IP/URL to be exposed in order for it to communicate back to ToastE. This configuration is generally specific to the cloud provider that you are using, so you should look at the docs for setting up those routes.
 
+### Ngrok
+
+TODO
+
+```text
+ngrok http -subdomain=acme-toast 10451
+```
+
 {% hint style="info" %}
 Even though ToastE is listening over a public connection, there is no security risk here because all messages coming in over that connection are signed by Slack and then verified by ToastE before any action is taken. Any message that fails that check will be thrown out ensuring that only valid content from Slack will be processed.
 {% endhint %}

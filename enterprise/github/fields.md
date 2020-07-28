@@ -1,14 +1,20 @@
+---
+description: >-
+  Please fill out the information on the page exactly as described below. Don't
+  forget to check checkboxes.
+---
+
 # Set Required Fields
 
 {% hint style="warning" %}
 **Prerequisites**   
 Private network address for your ToastE Instance \(obtained previously\)  
-Replace **TOASTE\_API\_URL** with that address in all snippets below.
+Replace **API\_URL** with that address in all snippets below.
 {% endhint %}
 
 ## Basic information
 
-**GitHub App name: `Toast App`**
+**GitHub App name: `Toast`**
 
 **Homepage URL: `https://toast.ninja`**
 
@@ -17,7 +23,7 @@ Replace **TOASTE\_API\_URL** with that address in all snippets below.
 **User authorization callback URL**
 
 ```text
-{TOASTE_API_URL}/github/oauth-redirect?callback=1
+{API_URL}/github/oauth-redirect?callback=1
 ```
 
 ## **Post installation**
@@ -25,7 +31,7 @@ Replace **TOASTE\_API\_URL** with that address in all snippets below.
 **Setup URL \(NOT optional\)**
 
 ```text
-{TOASTE_API_URL}/github/app-install-redirect
+{API_URL}/github/app-install-redirect
 ```
 
 * [x] **Redirect on update**
@@ -37,8 +43,12 @@ Replace **TOASTE\_API\_URL** with that address in all snippets below.
 **Webhook URL**
 
 ```text
-{TOASTE_API_URL}/webhooks/github/catch
+{API_URL}/webhooks/github/catch
 ```
 
-\*\*\*\*
+## **SSL verification**
+
+{% hint style="info" %}
+Depending on whether {API\_URL} uses HTTPS or not enable or disable SSL verification. \(Since we are inside private VPN it's often acceptable to disable this option\)
+{% endhint %}
 

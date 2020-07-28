@@ -6,7 +6,11 @@ description: >-
 
 # GitHub App
 
-### 1. Navigate to: GitHub Enterprise Settings  &gt;  Developer Settings  &gt;  GitHub Apps
+### 1. Navigate to: GitHub Organization  &gt;  Settings &gt; Developer Settings  &gt;  GitHub Apps
+
+{% hint style="info" %}
+Make sure you open settings for your GitHub Organization and not your personal account.
+{% endhint %}
 
 ![](../../.gitbook/assets/image%20%289%29.png)
 

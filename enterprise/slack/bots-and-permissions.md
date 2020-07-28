@@ -1,6 +1,8 @@
 # Bots & Permissions
 
-![Click &quot;Review Scopes to Add&quot; Button](../../.gitbook/assets/image%20%2835%29.png)
+## Click _Review Scopes to Add_
+
+![](../../.gitbook/assets/image%20%2835%29.png)
 
 ## Scopes
 
@@ -46,12 +48,14 @@
   </tbody>
 </table>
 
-Once you double-check that everything looks good, you can click  🔙   on your browser.  
+Once you double-check that everything looks good, you can click 🔙 on your browser.  
 Slack autosaves the token scopes.
 
 Confirm that the Bot Token has been added:
 
 ![](../../.gitbook/assets/image%20%2840%29.png)
+
+## Adjustments
 
 ### 1. Edit &gt; Display Name =&gt; Toast
 
@@ -63,7 +67,7 @@ Confirm that the Bot Token has been added:
 
 ![](../../.gitbook/assets/image%20%2836%29.png)
 
-### 4. Click browser  🔙  to Basic Information
+### 4. Click browser 🔙 to Basic Information
 
 ![&quot;Add features and functionality&quot; should now look like this.](../../.gitbook/assets/image%20%2816%29.png)
 

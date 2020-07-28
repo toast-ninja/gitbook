@@ -1,8 +1,8 @@
 ---
 description: >-
-  The Slack app setup is a little more involved, due to their security
+  The Slack app setup is a little more involved, due to their granular security
   requirements. We will set all the fields we can at this step. Later, after
-  deploying ToastE, we will fill in the remainder.
+  deploying ToastE, we will fill in the rest.
 ---
 
 # Basic Information

@@ -7,7 +7,7 @@
 * ToastE kit
 * Docker version 19.03.8 or later
 * `docker-compose` version 1.25.5 or later \(comes with docker\)
-* Text file to start collecting `ENV` variables during setup
+* Text file to start collecting ENV variables during setup
 {% endhint %}
 
 Docker Compose file \(`docker-compose.yml`\) is provided for the convenience of running everything on one VM. _It is possible to run services separately if you choose._

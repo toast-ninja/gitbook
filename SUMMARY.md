@@ -11,6 +11,7 @@
   * [Set Event Subscription](enterprise/github/events.md)
   * [Set Installation Scope](enterprise/github/installation.md)
   * [Environment Variables](enterprise/github/env-vars.md)
+  * [Generate Private Key](enterprise/github/generate-private-key.md)
   * [Display Information](enterprise/github/display.md)
 * [Slack App](enterprise/slack/README.md)
   * [Basic Information](enterprise/slack/basic-info.md)

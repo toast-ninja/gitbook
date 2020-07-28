@@ -4,9 +4,9 @@
 
 ![](../../.gitbook/assets/image%20%2828%29.png)
 
-### 2. Save fields in this template
+### 2. Use template
 
-Keep them somewhere secure along with the captured fields from the GitHub app.
+Add to our ENV variables file:
 
 ```text
 SLACK_APP_ID=
@@ -16,5 +16,5 @@ SLACK_APP_SIGNING_SECRET=
 SLACK_APP_VERIFICATION_TOKEN=
 ```
 
-### 3. Scroll down to "Display Information"
+### 3. Scroll down to _Display Information_
 

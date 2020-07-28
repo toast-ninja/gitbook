@@ -5,7 +5,7 @@
 ![This app icon is unique to ToastE.](../../.gitbook/assets/image%20%2842%29.png)
 
 {% hint style="info" %}
-We've supplied this PNG.  
+We've supplied this PNG, in accordance with our [Brand Guidelines](../../brand-guidelines.md).  
 Just download and set as the logo for your new Toast app.
 {% endhint %}
 

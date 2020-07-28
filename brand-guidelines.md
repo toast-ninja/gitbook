@@ -10,3 +10,7 @@ Please refrain from altering it in any way.
 
 Feel free to use it for education or promotion of Toast \(e.g. sharing engineering best practices, blogs about engineering workflow, internal onboarding docs, etc.\).
 
+{% hint style="info" %}
+It is possible to [white label](usage/customization.md#white-label) ToastE for your enterprise.
+{% endhint %}
+

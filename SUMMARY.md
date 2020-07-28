@@ -30,6 +30,11 @@
       * [Workspace Events](enterprise/finalize-configuration/update-slack-app/event-subscriptions/workspace-events.md)
 * [Use Toast](enterprise/use-toast.md)
 
+## Usage
+
+* [Updates & Maintenance](usage/updates.md)
+* [Customization](usage/customization.md)
+
 ---
 
 * [Brand Guidelines](brand-guidelines.md)

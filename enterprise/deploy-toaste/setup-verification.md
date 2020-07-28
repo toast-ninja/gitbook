@@ -4,7 +4,7 @@
 
 Which could look like: `http://192.0.0.168:10451/start`
 
-💡  Note: If you configured a different port during [Host Setup](https://toast-enterprise.gitbook.io/toaste/enterprise/host), you will use that port here instead.
+💡  Note: If you configured a different port during [Host Setup](../host.md), you will use that port here instead.
 
 You should see something like:
 
@@ -12,5 +12,5 @@ You should see something like:
 
 ### 2. Troubleshooting
 
-If the page shows Slack API error, then your host may not be connected to the internet \(it needs to be able to access [https://api.slack.com/](https://api.slack.com/)\). If that is not the case, then it's likely an issue with the Slack ENV variables setup. If you can't figure it out – reach out to [toast@support.com](mailto:toast@support.com) and we will help! 
+If the page shows Slack API error, then your host may not be connected to the internet \(it needs to be able to access `https://api.slack.com/`\). If that is not the case, then it's likely an issue with the Slack ENV variables setup. If you can't figure it out – [contact us](../../support.md) and we will help! 
 

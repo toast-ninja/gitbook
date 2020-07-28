@@ -43,16 +43,17 @@ API_URL=http://192.0.0.168:10451
 
 ToastE also needs bidirectional network access to Slack API via public IP. It's possible to set this up using services like [ngrok](https://ngrok.com/) or your cloud provider configuration. **Make sure the public address stays static.** This step can be done later after we get ToastE up and running.
 
-More info in the [Expose ToastE API](https://toast-enterprise.gitbook.io/toaste/enterprise/expose-toaste-api) step.
+More info in the [Expose ToastE API](expose-toaste-api.md) step.
 
 ## **Database**
 
-By default, ToastE uses dockerized Postgres instance and stores data on your local file system in the same working directory where your run `docker-compose.yml`file in the `postgres-data` folder. _It is possible to use an externally managed database if you choose._   
-  
-To use managed database:
+By default, ToastE uses a dockerized Postgres instance, and stores data on your local file system in the same working directory \(in `./postgres-data`\) where you run the `docker-compose.yml`file. _It is possible to use an externally managed database if you choose._ 
 
-* Make sure Postgres runs version 10.11+
-* Remove or comment out Postgres section from `docker-compose.yml` file. Make sure you remove it from `depends_on` section for ToastE service as well
+#### Managed database __\(optional\)
+
+* Postgres version 10.11+
+* Remove or comment out Postgres section from `docker-compose.yml` file. 
+* Remove it from the `depends_on` section for ToastE service as well
 * Provide a connection string in the environment variable:
 
 ```text
@@ -61,7 +62,7 @@ DATABASE_URL=postgres://toast:toast@postgres:5432/toast
 
 ## Enterprise ID
 
-We provided you with your unique TOASTE\_ID that must be set in ENV variables as well. Your file now should look similar to:
+You are provided with your unique `TOASTE_ID`. Your file should now look something like:
 
 ```text
 TOASTE_ID=<from email>

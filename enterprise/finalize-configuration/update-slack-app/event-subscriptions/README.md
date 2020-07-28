@@ -12,7 +12,7 @@
 
 ![](../../../../.gitbook/assets/image%20%2830%29.png)
 
-#### If the URL _doesn't_  work, it will look like this:
+#### ⚠️  If the URL _doesn't_  work, it will look like this:
 
 ![](../../../../.gitbook/assets/image%20%2841%29.png)
 
@@ -22,7 +22,7 @@
 * Verify the URL \(this page\)
 * Verify environment variables were set properly \(**Deploy ToastE** step\)
 * Verify ToastE API Public URL was exposed correctly \(**Expose ToastE API** step\)
-* [Contact us](https://toast-team.gitbook.io/toast/support)
+* [Contact us](../../../../support.md)
 {% endhint %}
 
 ### 4. Proceed to _Subscribe to bot events_

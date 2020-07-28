@@ -16,7 +16,7 @@ Similarly to the above ToastE requires bidirectional communication with Slack in
 
 Slack needs a public IP/URL to be exposed in order for it to communicate back to ToastE. This configuration is generally specific to the cloud provider that you are using, so you should look at the docs for setting up those routes.
 
-### Ngrok
+### ngrok
 
 One quick and popular option is to run ngrok on the host machine. Make sure you specify `subdomain` for the URL to stay the same:
 
@@ -34,5 +34,5 @@ Even though ToastE is listening over a public connection, there is no security r
 ### Summary
 
 As a result of this configuration, you should have public URL that toast is available by, we will refer to it as `{TOASTE_API_PUBLIC_URL}`in the following sections. You can verify that it works by accessing:  
-`{TOASTE_API_PUBLIC_URL}/start` where you should be able to see the page we've seen before during [Setup Verification Step.](https://toast-enterprise.gitbook.io/toaste/enterprise/deploy-toaste/setup-verification)
+`{TOASTE_API_PUBLIC_URL}/start` where you should be able to see the page we've seen before during [Setup Verification](deploy-toaste/setup-verification.md) step.
 

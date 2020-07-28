@@ -29,5 +29,5 @@ Use the same icon we uploaded for the GitHub app. Provided here again for conven
 
 ### 5. Save Changes
 
-We will come back to this page during the **Finalize Configuration** step.
+We will come back to this page during the [Finalize Configuration](../finalize-configuration/) step.
 

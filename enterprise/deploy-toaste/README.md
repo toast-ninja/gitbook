@@ -3,10 +3,10 @@
 {% hint style="warning" %}
 **Prerequisites**
 
-* ToastE {API\_URL}
-* GitHub app variables
-* Slack app variables
-* `TOASTE_ID` Your `TOASTE_ID` is provided to you with your ToastE Kit. [Contact us](https://toast-team.gitbook.io/toast/support) if you do not have this.
+* [ToastE {API\_URL}](../host.md)
+* [GitHub app variables](../github/env-vars.md)
+* [Slack app variables](../slack/app-credentials.md)
+* `TOASTE_ID` Your `TOASTE_ID` is provided to you with your ToastE Kit. [Contact us](../../support.md) if you do not have this.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -21,20 +21,6 @@ Get the files from the ToastE kit onto the instance that's going to run it
 We recommend creating a folder like `toast` and then copy there `docker-compose.yml` that we provided you with.
 
 ## Set environment variables
-
-### In case you missed them...
-
-#### ToastE {API\_URL}
-
-{% page-ref page="../host.md" %}
-
-#### GitHub
-
-{% page-ref page="../github/env-vars.md" %}
-
-#### Slack
-
-{% page-ref page="../slack/app-credentials.md" %}
 
 Create`.env.external` and paste all collected environment variables from prior steps there. Here is an example `.env.external` file:
 

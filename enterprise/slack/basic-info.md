@@ -11,7 +11,7 @@ description: >-
 
 ![](../../.gitbook/assets/image%20%2833%29.png)
 
-### Click Bots to begin.
+### 👆 Click Bots to begin.
 
 
 

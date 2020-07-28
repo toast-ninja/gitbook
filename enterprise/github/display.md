@@ -11,5 +11,5 @@ Just download and set as the logo for your new Toast app.
 
 {% file src="../../.gitbook/assets/toaste-logo.png" caption="Download ToastE icon" %}
 
-### And we're done with the GitHub app!  🎉
+### And we're done with the GitHub app! 🥳 
 

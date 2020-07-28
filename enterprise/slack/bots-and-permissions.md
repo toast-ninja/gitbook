@@ -59,7 +59,7 @@ Confirm that the Bot Token has been added:
 
 ### 1. Edit &gt; Display Name =&gt; Toast
 
-### 2. Always Show My Bot as Online ✅
+### 2. Always Show My Bot as Online ✅ 
 
 ![](../../.gitbook/assets/image%20%2825%29.png)
 
@@ -71,5 +71,5 @@ Confirm that the Bot Token has been added:
 
 ![&quot;Add features and functionality&quot; should now look like this.](../../.gitbook/assets/image%20%2816%29.png)
 
-### 5. Scroll down until you see "App Credentials" 
+### 5. Scroll down until you see _App Credentials_
 

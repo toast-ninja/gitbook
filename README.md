@@ -27,7 +27,7 @@ If you haven't already, [contact us](https://toast-team.gitbook.io/toast/support
 5. Deploy ToastE.
 6. Expose ToastE API to Slack.
 7. Finalize configuration.
-8. Use ToastE!
+8. Use Toast!
 
 Start your ToastE [free trial](https://forms.gle/YmAxTfwEARBSis2F8).
 

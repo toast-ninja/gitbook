@@ -16,7 +16,7 @@ The larger the engineering org, and the more layers of management, the further r
 
 ## Using Toast with [GitHub Enterprise](https://github.com/enterprise)
 
-If you haven't already, [contact us](support.md) to get your own Toast for Enterprise \(ToastE\) kit. Then you can create your own ToastE GitHub and Slack apps for use on-premise, which allows complete ownership over your data. ToastE requires only access to your GitHub Enterprise API and the public Slack API.
+If you haven't already, [contact us](support.md) to get your own **Toast for Enterprise \(ToastE\) kit**. Then you can create your own ToastE GitHub and Slack apps for use on-premise, which allows complete ownership over your data. ToastE requires only access to your GitHub Enterprise API and the public Slack API.
 
 #### Setup Overview
 
